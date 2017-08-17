@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: algo.design
+title: Algo. Design
 
 # Short description of your site
 description: Deciphering algorithms in plain english.
@@ -23,6 +23,8 @@ description: Deciphering algorithms in plain english.
 
 # List of links in the navigation bar
 navbar-links:
+  Topics:
+    - General: "tags/General"
   Upcoming: "upcoming"
   Author's home: "http://hemanth.io"
 
@@ -85,10 +87,10 @@ url-pretty: "algo.design"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
+disqus: "algodesign"
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-104765681-1"
 
 # Google Tag Manager ID
 #gtm: ""
@@ -110,7 +112,7 @@ title-separator: "-"
 timezone: "Asia/Kolkata"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+permalink: "/:year/:month/:title/"
 paginate: 5
 
 kramdown:
@@ -201,6 +203,9 @@ prose:
 
 gems:
   - jekyll-paginate
+  - jekyll-redirect-from
+
+jekyll-redirect-from: 
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

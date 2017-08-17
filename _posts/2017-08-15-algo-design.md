@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why algo.design !
+title: Why algo.design ?
 subtitle: What can I find here ?
 tags:
 - General
