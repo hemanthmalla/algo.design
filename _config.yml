@@ -204,6 +204,7 @@ prose:
 gems:
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 jekyll-redirect-from: 
 
