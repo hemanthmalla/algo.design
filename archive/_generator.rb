@@ -47,7 +47,7 @@ end
 
 # Create template files for each tag
 for tag in tags
-    tagpath = tag.include?(' ') ? tag.downcase.gsub!(' ','-') : tag.downcase
+    tagpath = tag.include?(' ') ? tag.gsub!(' ','-') : tag
     tagpage_path = tags_folder_path + "/#{tagpath}.md"
     write_template_file(tagpage_path, "tags/#{tagpath}/", tag, {tag: tag})
 end

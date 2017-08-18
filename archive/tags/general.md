@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: 'tags/general/'
-redirect_from: 'archive/tags/general/'
+permalink: 'tags/General/'
+redirect_from: 'archive/tags/General/'
 title: 'General'
 tag: 'General'
 ---
